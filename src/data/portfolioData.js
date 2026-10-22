@@ -5,7 +5,7 @@ export const DEVELOPER_INFO = {
   title: "Full-Stack Web Engineer",
   subTitle: "B.Tech (Hons. through Innovation) — AI & Data Science, Cybersecurity Engineering",
   tagline: "B.Tech (Hons. through Innovation) in AI & Data Science, specializing in Cybersecurity Engineering | Full-Stack Web Engineer | Python, Java, FastAPI & React | Linux & AI Tooling Enthusiast.",
-  about: "I'm Anil Kumar . M — a 2nd Year B.Tech (Hons. through Innovation) student in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering, at Koneru Lakshmaiah Education Foundation (KL University), Vijayawada. Full-Stack Web Engineer specializing in Python, Java, FastAPI & React, as well as Linux & AI Tooling.",
+  about: "I'm Anil Kumar . M — a 1st Year B.Tech (Hons. through Innovation) student in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering, at Koneru Lakshmaiah Education Foundation (KL University), Vijayawada. Full-Stack Web Engineer specializing in Python, Java, FastAPI & React, as well as Linux & AI Tooling.",
   location: "Vijayawada, Andhra Pradesh",
   email: "anilkumarmaripi9@gmail.com",
   github: "https://github.com/AnilkumarMaripi",
@@ -15,7 +15,7 @@ export const DEVELOPER_INFO = {
   university: "Koneru Lakshmaiah Education Foundation (KL University)",
   branch: "B.Tech (Hons. through Innovation) in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering",
   stats: [
-    { num: 2, label: "Year B.Tech (HONS)" },
+    { num: 1, label: "Year B.Tech (HONS)" },
     { num: 4, label: "Featured Projects" },
     { num: 8, label: "Global Certifications" },
     { num: 10, label: "Core Technologies" }
@@ -134,13 +134,13 @@ export const GALLERY_ITEMS = [
 
 export const EXPERIENCE_ITEMS = [
   {
-    year: "2025 — Present",
+    year: "2025 — 2026",
     role: "B.Tech (Hons. through Innovation) Student — AI & Data Science",
     company: "Koneru Lakshmaiah Education Foundation (KL University)",
-    desc: "2nd Year undergraduate (Batch of 2025–2029) in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering through the Honours through Innovation program. Building skills in Data Structures, Algorithms, Machine Learning with Python, and Full-Stack React Development."
+    desc: "1st Year undergraduate (Batch of 2025–2029) in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering through the Honours through Innovation program. Building skills in Data Structures, Algorithms, Machine Learning with Python, and Full-Stack React Development."
   },
   {
-    year: "2025 — Present",
+    year: "2026 — Present",
     role: "Full Stack & AI Project Developer",
     company: "Personal & Academic Projects",
     desc: "Architected 4 complete software projects including Dev Gram, Automatic Attendance System, CA AI Financial Assistant, and Budget Collector."

@@ -134,13 +134,13 @@ export const GALLERY_ITEMS = [
 
 export const EXPERIENCE_ITEMS = [
   {
-    year: "2023 — Present",
+    year: "2025 — Present",
     role: "B.Tech (Hons. through Innovation) Student — AI & Data Science",
     company: "Koneru Lakshmaiah Education Foundation (KL University)",
-    desc: "2nd Year undergraduate in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering through the Honours through Innovation program. Building skills in Data Structures, Algorithms, Machine Learning with Python, and Full-Stack React Development."
+    desc: "2nd Year undergraduate (Batch of 2025–2029) in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering through the Honours through Innovation program. Building skills in Data Structures, Algorithms, Machine Learning with Python, and Full-Stack React Development."
   },
   {
-    year: "2024 — Present",
+    year: "2025 — Present",
     role: "Full Stack & AI Project Developer",
     company: "Personal & Academic Projects",
     desc: "Architected 4 complete software projects including Dev Gram, Automatic Attendance System, CA AI Financial Assistant, and Budget Collector."

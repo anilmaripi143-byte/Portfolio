@@ -134,7 +134,7 @@ export const GALLERY_ITEMS = [
 
 export const EXPERIENCE_ITEMS = [
   {
-    year: "2025 — 2026",
+    year: "2025 — 2026 (1st Year)",
     role: "B.Tech (Hons. through Innovation) Student — AI & Data Science",
     company: "Koneru Lakshmaiah Education Foundation (KL University)",
     desc: "1st Year undergraduate (Batch of 2025–2029) in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering through the Honours through Innovation program. Building skills in Data Structures, Algorithms, Machine Learning with Python, and Full-Stack React Development."

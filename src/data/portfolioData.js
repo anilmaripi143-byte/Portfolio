@@ -63,7 +63,7 @@ export const PROJECTS = [
     name: "Automatic Attendance System",
     desc: "Smart automated attendance tracking system utilizing facial recognition algorithms and real-time database logging.",
     tech: ["Python", "Machine Learning", "OpenCV", "SQL"],
-    img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&q=80",
+    img: "/projects/attendance.jpg",
     link: "https://github.com/AnilkumarMaripi"
   },
   {
@@ -99,7 +99,7 @@ export const GALLERY_ITEMS = [
     cat: "motion",
     catLabel: "Machine Learning",
     spanClass: "g2",
-    img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&q=80"
+    img: "/projects/attendance.jpg"
   },
   {
     id: 3,

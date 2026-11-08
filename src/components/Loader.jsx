@@ -42,7 +42,7 @@ export default function Loader({ onComplete }) {
   return (
     <div id="loader">
       <div className="loader-name" id="loader-name">
-        Anil Kumar <span style={{ color: 'var(--accent)' }}>.</span> M
+        Anil Kumar <span style={{ color: 'var(--accent)' }}>.</span> Maripi
       </div>
       <div className="loader-bar-wrap">
         <div className="loader-bar" style={{ width: `${progress}%` }}></div>

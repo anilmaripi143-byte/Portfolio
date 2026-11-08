@@ -45,6 +45,7 @@ export default function App() {
     // Stats counter animation
     document.querySelectorAll('[data-count]').forEach((el) => {
       const target = parseInt(el.dataset.count, 10);
+      const suffix = el.dataset.suffix !== undefined ? el.dataset.suffix : '+';
       ScrollTrigger.create({
         trigger: el,
         start: 'top 85%',
@@ -55,7 +56,7 @@ export default function App() {
             duration: 1.5,
             ease: 'power2.out',
             onUpdate: function () {
-              el.textContent = `${Math.floor(obj.val)}+`;
+              el.textContent = `${Math.floor(obj.val)}${suffix}`;
             }
           });
         }

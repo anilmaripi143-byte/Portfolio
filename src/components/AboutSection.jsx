@@ -17,8 +17,8 @@ export default function AboutSection() {
         <div className="about-stats reveal">
           {DEVELOPER_INFO.stats.map((stat, idx) => (
             <div key={idx} className="stat-box">
-              <div className="stat-num" data-count={stat.num}>
-                {stat.num}+
+              <div className="stat-num" data-count={stat.num} data-suffix={stat.suffix ?? '+'}>
+                {stat.num}{stat.suffix ?? '+'}
               </div>
               <div className="stat-label">{stat.label}</div>
             </div>

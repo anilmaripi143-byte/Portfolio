@@ -1,11 +1,14 @@
 export const DEVELOPER_INFO = {
-  name: "Anil Kumar . M",
+  name: "Anil Kumar Maripi",
   shortName: "Anil",
-  lastName: "Kumar . M",
+  middleName: "Kumar",
+  lastName: "Maripi",
+  photo: "/profile.jpg",
+  avatar: "/profile.jpg",
   title: "Full-Stack Web Engineer",
   subTitle: "B.Tech (Hons. through Innovation) — AI & Data Science, Cybersecurity Engineering",
   tagline: "B.Tech (Hons. through Innovation) in AI & Data Science, specializing in Cybersecurity Engineering | Full-Stack Web Engineer | Python, Java, FastAPI & React | Linux & AI Tooling Enthusiast.",
-  about: "I'm Anil Kumar . M — a 1st Year B.Tech (Hons. through Innovation) student in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering, at Koneru Lakshmaiah Education Foundation (KL University), Vijayawada. Full-Stack Web Engineer specializing in Python, Java, FastAPI & React, as well as Linux & AI Tooling.",
+  about: "I'm Anil Kumar Maripi — a 2nd Year B.Tech (Hons. through Innovation) student in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering, at Koneru Lakshmaiah Education Foundation (KL University), Vijayawada. Full-Stack Web Engineer specializing in Python, Java, FastAPI & React, as well as Linux & AI Tooling.",
   location: "Vijayawada, Andhra Pradesh",
   email: "anilkumarmaripi9@gmail.com",
   github: "https://github.com/AnilkumarMaripi",
@@ -15,10 +18,10 @@ export const DEVELOPER_INFO = {
   university: "Koneru Lakshmaiah Education Foundation (KL University)",
   branch: "B.Tech (Hons. through Innovation) in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering",
   stats: [
-    { num: 1, label: "Year B.Tech (HONS)" },
-    { num: 4, label: "Featured Projects" },
-    { num: 8, label: "Global Certifications" },
-    { num: 10, label: "Core Technologies" }
+    { num: 2, suffix: "nd", label: "Year B.Tech (HONS)" },
+    { num: 4, suffix: "+", label: "Featured Projects" },
+    { num: 8, suffix: "+", label: "Global Certifications" },
+    { num: 10, suffix: "+", label: "Core Technologies" }
   ]
 };
 
@@ -134,10 +137,10 @@ export const GALLERY_ITEMS = [
 
 export const EXPERIENCE_ITEMS = [
   {
-    year: "2025 — 2026 (1st Year)",
+    year: "2025 — Present (2nd Year)",
     role: "B.Tech (Hons. through Innovation) Student — AI & Data Science",
     company: "Koneru Lakshmaiah Education Foundation (KL University)",
-    desc: "1st Year undergraduate (Batch of 2025–2029) in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering through the Honours through Innovation program. Building skills in Data Structures, Algorithms, Machine Learning with Python, and Full-Stack React Development."
+    desc: "2nd Year undergraduate (Batch of 2025–2029) in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering through the Honours through Innovation program. Building skills in Data Structures, Algorithms, Machine Learning with Python, and Full-Stack React Development."
   },
   {
     year: "2026 — Present",

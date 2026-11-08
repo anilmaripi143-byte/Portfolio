@@ -76,10 +76,10 @@ export const PROJECTS = [
   },
   {
     id: "04",
-    name: "Budget Collector & Tracker",
-    desc: "Interactive monthly expenditure tracking form analyzing spending habits with visual data graphs and category breakdowns.",
+    name: "Budget Manager",
+    desc: "Interactive monthly expenditure tracking and financial dashboard analyzing spending habits with visual data graphs and category breakdowns.",
     tech: ["React", "JavaScript", "SQL", "Matplotlib"],
-    img: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80",
+    img: "/projects/budget-manager.jpg",
     link: "https://github.com/AnilkumarMaripi"
   }
 ];
@@ -111,11 +111,11 @@ export const GALLERY_ITEMS = [
   },
   {
     id: 4,
-    title: "Budget Collector Analytics",
+    title: "Budget Manager Analytics",
     cat: "web",
     catLabel: "Data Viz",
     spanClass: "g4",
-    img: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80"
+    img: "/projects/budget-manager.jpg"
   },
   {
     id: 5,

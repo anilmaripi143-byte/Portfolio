@@ -12,7 +12,7 @@ export const DEVELOPER_INFO = {
   location: "Vijayawada, Andhra Pradesh",
   email: "anilkumarmaripi9@gmail.com",
   formspreeId: "myeeaolo", // Formspree endpoint to receive emails in anilkumarmaripi9@gmail.com
-  github: "https://github.com/AnilkumarMaripi",
+  github: "https://github.com/anilmaripi143-byte",
   linkedin: "https://www.linkedin.com/in/anil-kumar-maripi-11012a382",
   twitter: "https://x.com/anilkumar_imdk",
   availability: "Available for Startups",
@@ -57,7 +57,7 @@ export const PROJECTS = [
     desc: "Developer community platform for programmers to share code snippets, collaborate, and showcase technical work.",
     tech: ["React", "JavaScript", "Node.js", "SQL"],
     img: "/projects/devgram.jpg",
-    link: "https://github.com/AnilkumarMaripi"
+    link: "https://github.com/anilmaripi143-byte"
   },
   {
     id: "02",
@@ -65,7 +65,7 @@ export const PROJECTS = [
     desc: "Smart automated attendance tracking system utilizing facial recognition algorithms and real-time database logging.",
     tech: ["Python", "Machine Learning", "OpenCV", "SQL"],
     img: "/projects/attendance.jpg",
-    link: "https://github.com/AnilkumarMaripi"
+    link: "https://github.com/anilmaripi143-byte"
   },
   {
     id: "03",
@@ -73,7 +73,7 @@ export const PROJECTS = [
     desc: "AI-powered financial assistant for automated tax estimates, accounting insights, and smart budget analytics.",
     tech: ["Python", "AI / ML", "FastAPI", "React"],
     img: "/projects/ca-ai.jpg",
-    link: "https://github.com/AnilkumarMaripi"
+    link: "https://github.com/anilmaripi143-byte"
   },
   {
     id: "04",
@@ -81,7 +81,7 @@ export const PROJECTS = [
     desc: "Interactive monthly expenditure tracking and financial dashboard analyzing spending habits with visual data graphs and category breakdowns.",
     tech: ["React", "JavaScript", "SQL", "Matplotlib"],
     img: "/projects/budget-manager.jpg",
-    link: "https://github.com/AnilkumarMaripi"
+    link: "https://github.com/anilmaripi143-byte"
   }
 ];
 

@@ -12,7 +12,8 @@ export default function GithubSection() {
   useEffect(() => {
     async function fetchGitHubData() {
       try {
-        const res = await fetch('https://api.github.com/users/AnilkumarMaripi');
+        const username = DEVELOPER_INFO.github.split('/').filter(Boolean).pop();
+        const res = await fetch(`https://api.github.com/users/${username}`);
         if (res.ok) {
           const data = await res.json();
           setGhStats((prev) => ({

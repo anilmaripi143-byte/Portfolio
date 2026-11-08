@@ -83,7 +83,7 @@ export default function ContactSection() {
             <a href={DEVELOPER_INFO.github} target="_blank" rel="noreferrer" className="contact-link">
               <div>
                 <div className="contact-link-name">GitHub</div>
-                <div className="contact-link-handle">github.com/AnilkumarMaripi</div>
+                <div className="contact-link-handle">{DEVELOPER_INFO.github.replace('https://', '')}</div>
               </div>
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <path d="M1 17L17 1M17 1H4M17 1V14" stroke="currentColor" strokeWidth="1.5" />

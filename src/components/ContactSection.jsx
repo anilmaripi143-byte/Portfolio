@@ -12,13 +12,30 @@ export default function ContactSection() {
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
 
     setSending(true);
-    setTimeout(() => {
-      setSending(false);
+
+    try {
+      if (DEVELOPER_INFO.formspreeId) {
+        // Send via Formspree API directly to your Gmail inbox
+        const res = await fetch(`https://formspree.io/f/${DEVELOPER_INFO.formspreeId}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(formData)
+        });
+        if (!res.ok) throw new Error('Submission failed');
+      } else {
+        // Direct email fallback opening mail composer to anilkumarmaripi9@gmail.com
+        const mailSubject = encodeURIComponent(formData.subject || `Portfolio Inquiry from ${formData.name}`);
+        const mailBody = encodeURIComponent(
+          `Hi Anil,\n\n${formData.message}\n\n---\nFrom: ${formData.name}\nReply-To: ${formData.email}`
+        );
+        window.location.href = `mailto:${DEVELOPER_INFO.email}?subject=${mailSubject}&body=${mailBody}`;
+      }
+
       setSent(true);
       confetti({
         particleCount: 80,
@@ -27,8 +44,13 @@ export default function ContactSection() {
         colors: ['#0047FF', '#FF4D00', '#1A1814']
       });
       setFormData({ name: '', email: '', subject: '', message: '' });
-      setTimeout(() => setSent(false), 4000);
-    }, 1200);
+      setTimeout(() => setSent(false), 5000);
+    } catch (err) {
+      console.error(err);
+      window.location.href = `mailto:${DEVELOPER_INFO.email}?subject=${encodeURIComponent(formData.subject || 'Inquiry')}&body=${encodeURIComponent(formData.message)}`;
+    } finally {
+      setSending(false);
+    }
   };
 
   return (

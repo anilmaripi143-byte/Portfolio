@@ -11,6 +11,7 @@ export const DEVELOPER_INFO = {
   about: "I'm Anil Kumar Maripi — a 2nd Year B.Tech (Hons. through Innovation) student in Artificial Intelligence & Data Science, specializing in Cybersecurity Engineering, at Koneru Lakshmaiah Education Foundation (KL University), Vijayawada. Full-Stack Web Engineer specializing in Python, Java, FastAPI & React, as well as Linux & AI Tooling.",
   location: "Vijayawada, Andhra Pradesh",
   email: "anilkumarmaripi9@gmail.com",
+  formspreeId: "", // Optional: Create a free form at https://formspree.io and paste your form ID here to receive emails in your inbox without opening a mail client
   github: "https://github.com/AnilkumarMaripi",
   linkedin: "https://www.linkedin.com/in/anil-kumar-maripi-11012a382",
   twitter: "https://x.com/anilkumar_imdk",
@@ -119,11 +120,11 @@ export const GALLERY_ITEMS = [
   },
   {
     id: 5,
-    title: "Data Analysis Dashboard",
+    title: "Placement Predictor Dashboard",
     cat: "ui",
-    catLabel: "Seaborn & Pandas",
+    catLabel: "ML & Analytics",
     spanClass: "g5",
-    img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80"
+    img: "/projects/placement-predictor.jpg"
   },
   {
     id: 6,

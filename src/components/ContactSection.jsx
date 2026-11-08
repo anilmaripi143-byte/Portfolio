@@ -21,7 +21,10 @@ export default function ContactSection() {
     try {
       if (DEVELOPER_INFO.formspreeId) {
         // Send via Formspree API directly to your Gmail inbox
-        const res = await fetch(`https://formspree.io/f/${DEVELOPER_INFO.formspreeId}`, {
+        const endpoint = DEVELOPER_INFO.formspreeId.startsWith('http')
+          ? DEVELOPER_INFO.formspreeId
+          : `https://formspree.io/f/${DEVELOPER_INFO.formspreeId}`;
+        const res = await fetch(endpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify(formData)

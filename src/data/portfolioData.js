@@ -71,7 +71,7 @@ export const PROJECTS = [
     name: "CA AI (Chartered Accountant AI)",
     desc: "AI-powered financial assistant for automated tax estimates, accounting insights, and smart budget analytics.",
     tech: ["Python", "AI / ML", "FastAPI", "React"],
-    img: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80",
+    img: "/projects/ca-ai.jpg",
     link: "https://github.com/AnilkumarMaripi"
   },
   {
@@ -107,7 +107,7 @@ export const GALLERY_ITEMS = [
     cat: "ui",
     catLabel: "AI / ML",
     spanClass: "g3",
-    img: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80"
+    img: "/projects/ca-ai.jpg"
   },
   {
     id: 4,

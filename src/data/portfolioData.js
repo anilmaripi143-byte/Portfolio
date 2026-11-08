@@ -55,7 +55,7 @@ export const PROJECTS = [
     name: "Dev Gram",
     desc: "Developer community platform for programmers to share code snippets, collaborate, and showcase technical work.",
     tech: ["React", "JavaScript", "Node.js", "SQL"],
-    img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80",
+    img: "/projects/devgram.jpg",
     link: "https://github.com/AnilkumarMaripi"
   },
   {
@@ -91,7 +91,7 @@ export const GALLERY_ITEMS = [
     cat: "web",
     catLabel: "Web Dev",
     spanClass: "g1",
-    img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
+    img: "/projects/devgram.jpg"
   },
   {
     id: 2,

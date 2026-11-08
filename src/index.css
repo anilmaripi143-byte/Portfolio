@@ -680,20 +680,23 @@ nav {
 /* Hover Image Follower */
 #proj-hover-img {
   position: fixed;
-  width: 280px;
-  height: 180px;
+  width: 320px;
+  height: 190px;
   pointer-events: none;
   z-index: 500;
   opacity: 0;
   transform: scale(0.95);
   transition: opacity 0.25s, transform 0.25s;
   overflow: hidden;
-  border: 1px solid var(--line);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  border: 1.5px solid var(--charcoal);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
+  background: var(--charcoal);
 }
 #proj-hover-img img {
   width: 100%; height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 #proj-hover-img.visible { opacity: 1; transform: scale(1); }
 

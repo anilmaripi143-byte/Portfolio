@@ -41,7 +41,12 @@ export default function Navbar() {
           <li><a href="#experience" onClick={(e) => scrollToSection(e, '#experience')}>Experience</a></li>
           <li><a href="#contact" onClick={(e) => scrollToSection(e, '#contact')}>Contact</a></li>
         </ul>
-        <a href={`mailto:${DEVELOPER_INFO.email}`} className="nav-cta">
+        <a
+          href={DEVELOPER_INFO.linkedin}
+          target="_blank"
+          rel="noreferrer"
+          className="nav-cta"
+        >
           Hire Me
         </a>
         <div className="hamburger" onClick={() => setMobileOpen(!mobileOpen)}>
@@ -56,7 +61,13 @@ export default function Navbar() {
         <a href="#gallery" onClick={(e) => scrollToSection(e, '#gallery')}>Gallery</a>
         <a href="#experience" onClick={(e) => scrollToSection(e, '#experience')}>Experience</a>
         <a href="#contact" onClick={(e) => scrollToSection(e, '#contact')}>Contact</a>
-        <a href={`mailto:${DEVELOPER_INFO.email}`}>Hire Me →</a>
+        <a
+          href={DEVELOPER_INFO.linkedin}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Hire Me →
+        </a>
       </div>
     </>
   );
